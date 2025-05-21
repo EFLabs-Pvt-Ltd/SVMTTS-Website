@@ -101,3 +101,52 @@ nav li:first-child{
     float: right;
     padding-right:20rem;
 }
+
+
+
+.leadership{
+    padding-left:20rem;
+    padding-top: 7.438rem;
+    padding-bottom: 7.5rem;
+    align-items: center;
+}
+.leadership h2{
+    font-size:60px;
+    
+}
+.leadership span{
+    color: #6246ea;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+
+.card-con{
+    display: flex;
+    gap: 9.25rem;
+    align-items: center;
+    
+    padding-top: 7.438rem;
+}
+
+.placeholder{
+    width: 20.563rem;
+    height: 34.375rem;
+    background-color: #905de1;
+    padding: 5px;
+    border-radius: 15px;
+}
+.placeholder2{
+    width: 20.563rem;
+    height: 34.375rem;
+    background-color: #905de1;
+    padding: 5px;
+    border-radius: 15px;
+}
+.placeholder3{
+    width: 20.563rem;
+    height: 34.375rem;
+    background-color: #905de1;
+    padding: 5px;
+    border-radius: 15px;
+}
+
