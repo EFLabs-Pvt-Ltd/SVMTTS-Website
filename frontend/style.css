@@ -105,10 +105,12 @@ nav li:first-child{
 
 
 .leadership{
-    padding-left:20rem;
+    
     padding-top: 7.438rem;
-    padding-bottom: 7.5rem;
-    align-items: center;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+
 }
 .leadership h2{
     font-size:60px;
@@ -124,29 +126,49 @@ nav li:first-child{
     display: flex;
     gap: 9.25rem;
     align-items: center;
-    
+    justify-content: center;
     padding-top: 7.438rem;
 }
 
 .placeholder{
     width: 20.563rem;
-    height: 34.375rem;
+    height: 34rem;
     background-color: #905de1;
+    text-align: center;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 20px;
+}
+.placeholder img{
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    border-radius: 1.25rem;
+
 }
 .placeholder2{
     width: 20.563rem;
-    height: 34.375rem;
+    height: 34rem;
     background-color: #905de1;
+    text-align: center;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 20px;
+}
+.placeholder2 img{
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    border-radius: 20px;
 }
 .placeholder3{
     width: 20.563rem;
-    height: 34.375rem;
+    height: 34rem;
     background-color: #905de1;
+    text-align: center;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 20px;
+}
+.placeholder3 img{
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    border-radius: 1.25rem;
+
 }
 
