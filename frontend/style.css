@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 body{
     min-height: 100vh;
@@ -13,7 +14,7 @@ body{
 .taskbar {
     width: 100%;
     height: 6.063rem;
-    position: fixed; /* or fixed if you want it sticky */
+    position: sticky; /* or fixed if you want it sticky */
     z-index: 10;
     background-color: #F5EFFF;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -30,8 +31,8 @@ nav ul{
 }
 
 a{
-    padding-right: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
+    padding-right: 30px;
     text-decoration: none;
     display:flex;
     align-items: center;
@@ -49,21 +50,21 @@ nav li:first-child{
 }
 
 .container{
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
+    overflow: hidden;
     
 }
-.slides{
-    content: "";
-    display: block;
+.slides img{
+   
     position: absolute;
+    object-fit: cover;
     top:0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url("../asserts/first slide(1).png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     
     
     
@@ -76,9 +77,27 @@ nav li:first-child{
     color: #ffffff;
 
 }
-section {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: auto;
+.greatness{
+    padding-left:20rem;
+    padding-top: 7.438rem;
+    padding-bottom: 7.5rem;
   }
 
+.greatness h2{
+    font-size:60px;
+}
+.greatness span{
+    color: #6246ea;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+
+.greatness p{
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.greatness img{
+    float: right;
+    padding-right:20rem;
+}
