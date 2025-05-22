@@ -6,18 +6,19 @@
 }
 body{
     min-height: 100vh;
-    background-color: #F5EFFF;
+    background-color: #FBFBFB;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 .taskbar {
     width: 100%;
     height: 6.063rem;
     position: sticky;
     z-index: 10;
-    background-color: #F5EFFF;
+    background-color: #FBFBFB;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(340deg, #CDC1FF 70%,#A294F9 75%);
+    background: linear-gradient(#C4D9FF);
     
 }
 
@@ -30,9 +31,9 @@ nav ul{
 }
 
 a{
-    padding-right: 30px;
-    padding-right: 30px;
+    padding-right: 40px;
     text-decoration: none;
+    font-weight: 600;
     display:flex;
     align-items: center;
     color:black
@@ -68,7 +69,7 @@ nav li:first-child{
     writing-mode: vertical-rl;
     text-orientation: mixed;
     position: fixed;
-    background-color: #CDC1FF;
+    background-color: #C5BAFF;
     padding: 15px;
     border-radius: 15px;
     top: 50%;
@@ -88,7 +89,7 @@ marquee{
 
     display: flex;
     padding: 15px;
-    background-color: #CDC1FF;
+    background-color: #E8F9FF;
 
 }
 marquee ul{
@@ -108,7 +109,8 @@ marquee ul{
     font-size:60px;
 }
 .greatness span{
-    color: #6246ea;
+    color: #C5BAFF;
+    font-weight: 900;
     font-family: "Noto Serif", serif;
     font-size: 60px;
 }
@@ -138,7 +140,8 @@ marquee ul{
     
 }
 .leadership span{
-    color: #6246ea;
+    color: #C5BAFF;
+    font-weight: 900;
     font-family: "Noto Serif", serif;
     font-size: 60px;
 }
@@ -149,29 +152,40 @@ marquee ul{
     align-items: center;
     justify-content: center;
     padding-top: 7.438rem;
+    transition: 2s;
 }
 
 .placeholder{
     width: 20.563rem;
     height: 34rem;
-    background-color: #CDC1FF;
+    background-color: #E8F9FF;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+}
+.placeholder:hover{
+    transform: scale(1.2);
+    background-color: #E8F9FF;
+    z-index: 2;
 }
 .placeholder img{
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
     border-radius: 1.25rem;
-
+    
 }
 .placeholder2{
     width: 20.563rem;
     height: 34rem;
-    background-color: #CDC1FF;
+    background-color: #E8F9FF;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+}
+.placeholder2:hover{
+    transform: scale(1.2);
+    background-color: #E8F9FF;
+    z-index: 2;
 }
 .placeholder2 img{
     padding-top: 1.875rem;
@@ -181,10 +195,15 @@ marquee ul{
 .placeholder3{
     width: 20.563rem;
     height: 34rem;
-    background-color: #CDC1FF;
+    background-color: #E8F9FF;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+}
+.placeholder3:hover{
+    transform: scale(1.2);
+    background-color: #E8F9FF;
+    z-index: 2;
 }
 .placeholder3 img{
     padding-top: 1.875rem;
@@ -194,19 +213,19 @@ marquee ul{
 }
 
 .aboutsvm{
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #CDC1FF;
+    background-color: #b5cfff;
     margin-top:7.438rem;
 }
 .aboutsvm h2{
     font-family: "Noto Serif", serif;
     font-size: 60px;
     align-items: center;
-    color: black;
+    color: white;
 }
 .aboutsvm__text{
     display: flex;
@@ -215,13 +234,14 @@ marquee ul{
     padding-bottom: 4rem;
     padding-left: 25rem;
     gap: 11.875rem;
-    background-color: #CDC1FF;
+    background-color: #b5cfff;
 
 }
 .aboutsvm__text h1{
+    display: flex;
     font-size: 40;
     font-family: "Inter", sans-serif;
-    color: black;
+    color: white;
 }
 .authorities{
     padding-top: 7.438rem;
@@ -234,7 +254,8 @@ marquee ul{
     color: black;
 }
 .authorities span{
-    color: #6246ea;
+    color: #C5BAFF;
+    font-weight: 900;
 }
 
 .authorities_img{
@@ -244,7 +265,8 @@ marquee ul{
     display: grid;
     place-items: center;
     overflow:  hidden;
-    margin-bottom: 75px;
+    margin-bottom: 135px;
+    
 }
 .slider{
     display: flex;
@@ -303,8 +325,10 @@ iframe{
 .branchestext{
     font-family: "Noto Serif", serif;
     font-size: 40px;
-    color: black;
-    background-color: #CDC1FF;
+    padding-top:30px;
+    padding-bottom:30px;
+    color: white;
+    background-color: #C4D9FF;
 }
 .map{
     padding-bottom: 7rem;
