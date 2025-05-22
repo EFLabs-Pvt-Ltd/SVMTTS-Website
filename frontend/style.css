@@ -133,7 +133,7 @@ nav li:first-child{
 .placeholder{
     width: 20.563rem;
     height: 34rem;
-    background-color: #905de1;
+    background-color: #A294F9;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
@@ -147,7 +147,7 @@ nav li:first-child{
 .placeholder2{
     width: 20.563rem;
     height: 34rem;
-    background-color: #905de1;
+    background-color: #A294F9;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
@@ -160,7 +160,7 @@ nav li:first-child{
 .placeholder3{
     width: 20.563rem;
     height: 34rem;
-    background-color: #905de1;
+    background-color: #A294F9;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
@@ -202,4 +202,72 @@ nav li:first-child{
     font-size: 40;
     font-family: "Inter", sans-serif;
     color: #F5EFFF;
+}
+.authorities{
+    padding-top: 7.438rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.authorities h2{
+    font-size: 60px;
+    color: black;
+}
+.authorities span{
+    color: #6246ea;
+}
+
+.authorities_img{
+    height: 250px;
+    margin:auto;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow:  hidden;
+    margin-bottom: 20px;
+}
+.slider{
+    display: flex;
+    width: calc(250px * 12);
+    animation: scroll 40s linear infinite;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px *6));
+    }
+    
+}
+.authorities_img_slider{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+.authorities_img_slider img{
+    transition: 1s;
+}
+.authorities_img_slider img:hover{
+    transform: translateZ(20px);
+}
+.authorities_img_slider::before,
+.authorities_img_slider::after{
+    background:linear-gradient(to right,rgba(255,255,255,1) 0%,
+    rgba(255,255,255,0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+.authorities_img_slider::before{
+    left:0;
+    top: 0;
+}
+.authorities_img_slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
 }
