@@ -6,7 +6,6 @@
 }
 body{
     min-height: 100vh;
-    
     background-color: #F5EFFF;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +13,7 @@ body{
 .taskbar {
     width: 100%;
     height: 6.063rem;
-    position: sticky; /* or fixed if you want it sticky */
+    position: sticky;
     z-index: 10;
     background-color: #F5EFFF;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -64,10 +63,17 @@ nav li:first-child{
     left: 0;
     height: 100%;
     width: 100%;
-    
-    
-    
-    
+}
+.container h2{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: fixed;
+    background-color: #CDC1FF;
+    padding: 15px;
+    border-radius: 15px;
+    top: 50%;
+    left: 99%;
+    transform: translate(-50%, -50%);
 }
 .slides h2{
     text-align: center;
@@ -148,7 +154,7 @@ marquee ul{
 .placeholder{
     width: 20.563rem;
     height: 34rem;
-    background-color: #A294F9;
+    background-color: #CDC1FF;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
@@ -162,7 +168,7 @@ marquee ul{
 .placeholder2{
     width: 20.563rem;
     height: 34rem;
-    background-color: #A294F9;
+    background-color: #CDC1FF;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
@@ -175,7 +181,7 @@ marquee ul{
 .placeholder3{
     width: 20.563rem;
     height: 34rem;
-    background-color: #A294F9;
+    background-color: #CDC1FF;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
@@ -193,30 +199,29 @@ marquee ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #A294F9;
+    background-color: #CDC1FF;
     margin-top:7.438rem;
 }
 .aboutsvm h2{
     font-family: "Noto Serif", serif;
     font-size: 60px;
     align-items: center;
-    color: #F5EFFF;
+    color: black;
 }
 .aboutsvm__text{
     display: flex;
     align-items: center;
     justify-items: center;
-    padding-top: 3rem;
     padding-bottom: 4rem;
     padding-left: 25rem;
     gap: 11.875rem;
-    background-color: #A294F9;
+    background-color: #CDC1FF;
 
 }
 .aboutsvm__text h1{
     font-size: 40;
     font-family: "Inter", sans-serif;
-    color: #F5EFFF;
+    color: black;
 }
 .authorities{
     padding-top: 7.438rem;
@@ -298,8 +303,8 @@ iframe{
 .branchestext{
     font-family: "Noto Serif", serif;
     font-size: 40px;
-    color: #F5EFFF;
-    background-color: #A294F9;
+    color: black;
+    background-color: #CDC1FF;
 }
 .map{
     padding-bottom: 7rem;
