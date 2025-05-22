@@ -172,3 +172,34 @@ nav li:first-child{
 
 }
 
+.aboutsvm{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A294F9;
+    margin-top:7.438rem;
+}
+.aboutsvm h2{
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+    align-items: center;
+    color: #F5EFFF;
+}
+.aboutsvm__text{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-left: 25rem;
+    gap: 11.875rem;
+    background-color: #A294F9;
+
+}
+.aboutsvm__text h1{
+    font-size: 40;
+    font-family: "Inter", sans-serif;
+    color: #F5EFFF;
+}
