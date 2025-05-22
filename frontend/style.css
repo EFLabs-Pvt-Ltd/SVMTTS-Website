@@ -77,6 +77,21 @@ nav li:first-child{
     color: #ffffff;
 
 }
+
+marquee{
+
+    display: flex;
+    padding: 15px;
+    background-color: #CDC1FF;
+
+}
+marquee ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+
+
 .greatness{
     padding-left:20rem;
     padding-top: 7.438rem;
@@ -106,7 +121,7 @@ nav li:first-child{
 
 .leadership{
     
-    padding-top: 7.438rem;
+    padding-top: 10rem;
     padding-bottom: 4rem;
     display: flex;
     justify-content: center;
@@ -224,7 +239,7 @@ nav li:first-child{
     display: grid;
     place-items: center;
     overflow:  hidden;
-    margin-bottom: 20px;
+    margin-bottom: 75px;
 }
 .slider{
     display: flex;
@@ -254,7 +269,7 @@ nav li:first-child{
 }
 .authorities_img_slider::before,
 .authorities_img_slider::after{
-    background:linear-gradient(to right,rgba(255,255,255,1) 0%,
+    background:linear-gradient(to right,#F5EFFF 0%,
     rgba(255,255,255,0) 100%);
     content: "";
     height: 100%;
@@ -270,4 +285,22 @@ nav li:first-child{
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
+}
+
+iframe{
+    width: 100%;
+    
+}
+.branchestext{
+    display: flex;
+    justify-content: center;
+}
+.branchestext{
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    color: #F5EFFF;
+    background-color: #A294F9;
+}
+.map{
+    padding-bottom: 7rem;
 }
