@@ -15,12 +15,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>SVMTTS</title>
     <link rel="stylesheet" href="../frontend/style.css">
+    <script src="../backend/main.js"></script>
 </head>
 <body>
     <div class="taskbar">
         <nav>
         <ul>
                 <li class="logo"><a href=""><img src="../asserts/svm page img (330 x 115 px).png" alt="logo"height="80"></a></li>
+                <li class="hideOnMobile"><a href="">Home</a></li>
+                <li class="hideOnMobile"><a href="#">About us</a></li>
+                <li class="hideOnMobile"><a href="#">Our Staff</a></li>
+                <li class="hideOnMobile"><a href="#">Course</a></li>
+                <li class="hideOnMobile"><a href="#">Branches</a></li>
+                <li class="hideOnMobile"><a href="#">Franchise</a></li>
+                <li class="menubutton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        </div>
+       
+        <ul class="slidebar">
+                <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                 <li><a href="">Home</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Our Staff</a></li>
@@ -28,18 +41,8 @@
                 <li><a href="#">Branches</a></li>
                 <li><a href="#">Franchise</a></li>
         </ul>
-        </div>
-        <div class="sidebar">
-            
-            
-                <a href="">Home</a>
-                <a href="#">About us</a>
-                <a href="#">Our Staff</a>
-                <a href="#">Course</a>
-                <a href="#">Branches</a>
-                <a href="#">Franchise</a>
+                
         
-        </div>
     </nav>
     <div class="container">
         <div class="slides">
