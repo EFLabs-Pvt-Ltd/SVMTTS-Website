@@ -45,9 +45,33 @@ a{
     padding-top: 8px;
     padding-left: 20px;
 }
-nav li:first-child{
+.taskbar li:first-child{
     margin-right: auto;
 }
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 999;
+    background-color: #E8F9FF;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    padding: 50px;
+}
+.slidebar a{
+    padding: 15px;
+    width: 100%;
+    transition: 1s;
+}
+
 
 .container{
     position: relative;
@@ -162,6 +186,7 @@ marquee ul{
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+    transition: 2s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .placeholder:hover{
@@ -182,6 +207,7 @@ marquee ul{
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+    transition: 2s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .placeholder2:hover{
@@ -201,6 +227,7 @@ marquee ul{
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+    transition: 2s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .placeholder3:hover{
