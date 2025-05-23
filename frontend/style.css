@@ -2,21 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: no-repeat;
+    font-family: "inter", sans-serif;
 }
 body{
     min-height: 100vh;
     background-color:#F5EFFF;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
+    
 }
 .taskbar {
     width: 100%;
     height: 6.063rem;
-    position: fixed; /* or fixed if you want it sticky */
+    position: sticky; /* or fixed if you want it sticky */
     z-index: 10;
-    background-color: #F5EFFF;
+    background-color: #FBFBFF;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(340deg, #CDC1FF 70%,#A294F9 75%);
+    background: linear-gradient(#8f87f1);
     
 }
 
@@ -48,37 +51,182 @@ nav li:first-child{
 }
 
 .container{
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
+    overflow: hidden;
     
 }
-.slides{
-     content: "";
-    display: block;
+.slides img{
+   
     position: absolute;
+    object-fit: cover;
     top:0;
     left: 0;
-    height: 300%;
-    width: 200%;
-    background-image: url("file:///media/rent-pc/VM/asserts/first%20slide(1).png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    
-    
-    
-    
+    height: 100%;
+    width: 100%;
 }
-.slides h2{
-    text-align: center;
-    font-size: 3rem;
-    font-weight:bolder;
-    margin-top:450px;
-    color: #ffffff;
-
+.container h2{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: fixed;
+    background-color: #C68EFD;
+    padding: 15px;
+    border-radius: 15px;
+    top: 50%;
+    left: 99%;
+    transform: translate(-50%, -50%);
 }
 section {
     padding: 4rem 2rem;
     max-width: 1200px;
     margin: auto;
-  }
+}
+.aboutus{
+    padding-top: 7.438rem;
+    padding-bottom: 7.5rem;
+
+}
+.aboutus h2{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+     font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+.aboutus span{
+    color: #5409DA;
+    font-weight: 900;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+.aboutp {
+    display: flex;
+    padding-top: 3rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 24px;
+
+
+}
+.mission {
+    padding-bottom: 7.5rem;
+}
+.mission h2{
+     display:flex;
+    justify-content: center;
+    gap: 10px;
+     font-family: "Noto Serif", serif;
+    font-size: 60px
+}
+.mission span{
+     color: #5409DA;
+    font-weight: 900;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+.missionp {
+     display: flex;
+    padding-top: 3rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 24px;
+
+}
+.choose{
+     padding-bottom: 7.5rem;
+}
+.choose h2{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+     font-family: "Noto Serif", serif;
+    font-size: 60px
+}
+.choose span{
+    color: #5409DA;
+    font-weight: 900;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+.choosep {
+    padding-top: 3rem;
+    margin-left: 22rem;
+    margin-right: 20rem;
+    font-size: 24px;
+}
+.legacy{
+     padding-bottom: 7.5rem;
+}
+.legacy h2{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+     font-family: "Noto Serif", serif;
+    font-size: 60px
+}
+.legacy span{
+     color: #5409DA;
+    font-weight: 900;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+.legacyp {
+    list-style-type: disc;
+    padding-top: 3rem;
+    margin-left: 22rem;
+    margin-right: 20rem;
+    font-size: 24px;
+}
+.legacyy ul{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    margin-right: 30rem;
+    font-size: 24px;
+}
+.initistives {
+     padding-bottom: 7.5rem;
+}
+.initistives h2{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+     font-family: "Noto Serif", serif;
+    font-size: 60px
+}
+.initistives span{
+    color: #5409DA;
+    font-weight: 900;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+.initistivess {
+     padding-top: 1rem;
+    padding-left: 5rem;
+    margin-left: 19rem;
+    margin-right: 30rem;
+    font-size: 24px;
+}
+.joinus {
+      padding-bottom: 7.5rem;
+}
+.joinus h2{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+     font-family: "Noto Serif", serif;
+    font-size: 60px
+}
+.joinus span{
+    color: #5409DA;
+    font-weight: 900;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+.joinuss {
+    padding-top: 3rem;
+    margin-left: 25rem;
+    margin-right: 20rem;
+    font-size: 24px;
+}
