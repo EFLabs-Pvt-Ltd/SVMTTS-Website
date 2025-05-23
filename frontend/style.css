@@ -6,7 +6,7 @@
 }
 body{
     min-height: 100vh;
-    background-color: #FBFBFB;
+    background-color: #FED2E2;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -18,7 +18,7 @@ body{
     z-index: 10;
     background-color: #FBFBFB;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(#C4D9FF);
+    background: linear-gradient(#8F87F1);
     
 }
 
@@ -69,7 +69,7 @@ nav li:first-child{
     writing-mode: vertical-rl;
     text-orientation: mixed;
     position: fixed;
-    background-color: #C5BAFF;
+    background-color: #C68EFD;
     padding: 15px;
     border-radius: 15px;
     top: 50%;
@@ -89,7 +89,7 @@ marquee{
 
     display: flex;
     padding: 15px;
-    background-color: #E8F9FF;
+    background-color: #8F87F1;
 
 }
 marquee ul{
@@ -109,7 +109,7 @@ marquee ul{
     font-size:60px;
 }
 .greatness span{
-    color: #C5BAFF;
+    color: #5409DA;
     font-weight: 900;
     font-family: "Noto Serif", serif;
     font-size: 60px;
@@ -140,7 +140,7 @@ marquee ul{
     
 }
 .leadership span{
-    color: #C5BAFF;
+    color: #5409DA;
     font-weight: 900;
     font-family: "Noto Serif", serif;
     font-size: 60px;
@@ -158,10 +158,11 @@ marquee ul{
 .placeholder{
     width: 20.563rem;
     height: 34rem;
-    background-color: #E8F9FF;
+    background-color: #E9A5F1;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .placeholder:hover{
     transform: scale(1.2);
@@ -177,10 +178,11 @@ marquee ul{
 .placeholder2{
     width: 20.563rem;
     height: 34rem;
-    background-color: #E8F9FF;
+    background-color: #E9A5F1;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .placeholder2:hover{
     transform: scale(1.2);
@@ -195,10 +197,11 @@ marquee ul{
 .placeholder3{
     width: 20.563rem;
     height: 34rem;
-    background-color: #E8F9FF;
+    background-color: #E9A5F1;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .placeholder3:hover{
     transform: scale(1.2);
@@ -218,7 +221,7 @@ marquee ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #b5cfff;
+    background-color: #C68EFD;
     margin-top:7.438rem;
 }
 .aboutsvm h2{
@@ -234,7 +237,7 @@ marquee ul{
     padding-bottom: 4rem;
     padding-left: 25rem;
     gap: 11.875rem;
-    background-color: #b5cfff;
+    background-color: #C68EFD;
 
 }
 .aboutsvm__text h1{
@@ -254,7 +257,7 @@ marquee ul{
     color: black;
 }
 .authorities span{
-    color: #C5BAFF;
+    color: #5409DA;
     font-weight: 900;
 }
 
@@ -296,7 +299,7 @@ marquee ul{
 }
 .authorities_img_slider::before,
 .authorities_img_slider::after{
-    background:linear-gradient(to right,#F5EFFF 0%,
+    background:linear-gradient(to right,10%,
     rgba(255,255,255,0) 100%);
     content: "";
     height: 100%;
@@ -328,8 +331,46 @@ iframe{
     padding-top:30px;
     padding-bottom:30px;
     color: white;
-    background-color: #C4D9FF;
+    background-color: #C68EFD;
 }
 .map{
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
+}
+
+.graduates{
+    
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content:center;
+
+}
+.graduates h2{
+    font-family: "Noto Serif", serif;
+    font-size: 60px; 
+}
+.graduates span{
+    color: #5409DA;
+    font-weight: 900;
+}
+
+.graduates_img{
+    display: flex;
+    justify-content: center;
+    gap: 9.25rem;
+    padding: 15px;
+    margin-bottom: 4rem;
+   
+}
+.graduates_img img{
+    gap: 9.25rem;
+    width: ;
+    transition: 2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1.25rem;
+    object-fit: cover; 
+}
+.graduates_img img:hover{
+    transform: scale(1.2);
+    background-color: #E8F9FF;
+    z-index: 2;
 }
