@@ -230,3 +230,44 @@ section {
     margin-right: 20rem;
     font-size: 24px;
 }
+.footer{
+    background-color: #8F87F1;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    a{
+        color: black;
+        font-weight: 600;
+    }
+    
+    
+    &__logo{
+        display: inline-block;
+        margin-bottom: 1.875rem;
+       
+    }
+    &__social {
+
+        margin-bottom: 1.875rem;
+        a{
+            display: inline-block;
+        }
+        a:not(:last-child){
+            display: inline-block;
+            margin-right: 1rem;
+        }
+    }
+    &__links {
+                display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2;
+        &.coil{
+            margin-bottom: 1.875rem;
+
+        }
+        &.coli2{
+
+        }
+    }
+}
